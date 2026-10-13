@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>WinWinBET Affiliate Program</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--bg:#f4f8ec;--card:#fff;--tx:#0d1409;--mu:#5b6650;--ac:#4a8a00;--ln:#dfe7d2;--hl:#b6ff00;--hltx:#0d1409}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b0f08;--card:#141b0f;--tx:#f2f7ea;--mu:#9aa88c;--ac:#b6ff00;--ln:#26331c}}
+:root[data-theme="dark"]{--bg:#0b0f08;--card:#141b0f;--tx:#f2f7ea;--mu:#9aa88c;--ac:#b6ff00;--ln:#26331c}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.5}
+.w{max-width:960px;margin:0 auto;padding:0 18px}
+header{display:flex;justify-content:space-between;align-items:center;padding:16px 0;gap:10px}
+.logo{font-weight:900;font-size:24px;font-style:italic}.logo b{background:var(--hl);color:var(--hltx);padding:0 8px;border-radius:6px;margin-left:4px}
+select{background:var(--card);color:var(--tx);border:1px solid var(--ln);border-radius:8px;padding:8px}
+.hero{padding:36px 0 28px}
+.hero h1{font-size:clamp(32px,8vw,56px);line-height:1.05;margin:0 0 14px;font-weight:900}
+.hero h1 span{background:var(--hl);color:var(--hltx);padding:0 8px;border-radius:6px}
+.hero p{color:var(--mu);font-size:18px;max-width:600px}
+.btn{display:inline-block;background:var(--hl);color:var(--hltx);font-weight:800;padding:13px 22px;border-radius:12px;text-decoration:none;margin:6px 8px 6px 0}
+.btn.g{background:transparent;color:var(--tx);border:1px solid var(--ln)}
+h2{font-size:28px;margin:44px 0 12px}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.card{background:var(--card);border:1px solid var(--ln);border-radius:16px;padding:20px}
+.card h3{margin:0 0 6px;color:var(--ac)}.card p{margin:0;color:var(--mu)}
+.big{font-size:34px;font-weight:900;color:var(--ac)}
+.box{overflow-x:auto;border:1px solid var(--ln);border-radius:14px;background:var(--card);max-height:460px;overflow-y:auto}
+table{border-collapse:collapse;width:100%;min-width:480px}
+th,td{padding:10px 14px;text-align:right;border-bottom:1px solid var(--ln)}
+th:first-child,td:first-child{text-align:left;font-weight:700}
+th{position:sticky;top:0;background:var(--card);color:var(--ac)}
+.note{color:var(--mu);font-size:14px}
+#cpn{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(20px + env(safe-area-inset-bottom,0px));background:var(--hl);color:var(--hltx);padding:10px 16px;border-radius:10px;font-weight:700;z-index:9;display:none;max-width:90%;text-align:center}
+footer{margin:50px 0 30px;color:var(--mu);font-size:13px;border-top:1px solid var(--ln);padding-top:18px}
+</style>
+</head>
+<body>
+<div class="w">
+<header><div class="logo">WinWin<b>BET</b></div>
+<select id="lang" aria-label="Language"></select></header>
+
+<section class="hero">
+<h1 id="h"></h1><p id="s"></p>
+<a class="btn" id="a1" target="_blank" rel="noopener"></a><a class="btn g" id="a2" target="_blank" rel="noopener"></a>
+</section>
+
+<h2 id="m"></h2>
+<div class="grid">
+<div class="card"><div class="big">25–50%</div><h3 id="r1"></h3><p id="r2"></p></div>
+<div class="card"><div class="big">CPA</div><h3 id="c1"></h3><p id="c2"></p></div>
+<div class="card"><div class="big">Hybrid</div><h3 id="y1"></h3><p id="y2"></p></div>
+</div>
+
+<h2 id="t"></h2>
+<div class="card"><p id="tx"></p></div>
+
+<h2 id="o"></h2>
+<p class="note" id="ox"></p>
+<div class="box"><table><thead><tr id="th"></tr></thead><tbody id="tb"></tbody></table></div>
+
+<h2 id="k"></h2>
+<div class="card"><p id="km"></p><br>
+<a class="btn" id="tg" target="_blank" rel="noopener">Telegram @Gelito_Winwin</a>
+<a class="btn g" id="wa" target="_blank" rel="noopener">WhatsApp +258 86 319 7240</a></div>
+<p id="cpn"></p>
+
+<footer id="d"></footer>
+</div>
+
+<script>
+var L={
+en:{n:"English",h:'Partner with us and <span>earn more</span>',s:"Join WinWinBET and get the best conditions for your traffic. Dedicated manager, fast payments, exclusive promo materials.",a:"Apply now",b:"Contact us",m:"Deal models",r1:"Revenue Share",r2:"From 25% to 50% revenue share, depending on your traffic and GEO.",c1:"CPA",c2:"Fixed payout per first-time deposit, available for selected regions.",y1:"Hybrid",y2:"Pick an offer from the scale below and get an additional +50% Revshare.",t:"Many traffic sources accepted",tx:"We accept affiliates from many traffic sources (Telegram, Facebook, Instagram, TikTok, YouTube, SEO, influencers, publishers, paid media) and from many locations worldwide.",o:"Partner offer scale",ox:"Required FTD = amount ÷ 2. Expected deposits = amount × 6. Every offer includes +50% Revshare.",th:["Offer","Required FTD","Expected deposits","Bonus"],k:"Contact us",km:"Hi! I want to become a WinWinBET affiliate. My traffic source: ___ . My GEO: ___ .",d:"18+ only."},
+pt:{n:"Português",h:'Seja nosso parceiro e <span>ganhe mais</span>',s:"Junte-se à WinWinBET e tenha as melhores condições para o seu tráfego. Gestor dedicado, pagamentos rápidos e materiais promocionais exclusivos.",a:"Candidatar-se",b:"Fale connosco",m:"Modelos de acordo",r1:"Revenue Share",r2:"De 25% a 50% de revshare, conforme o seu tráfego e GEO.",c1:"CPA",c2:"Pagamento fixo por primeiro depósito, disponível para algumas regiões.",y1:"Híbrido",y2:"Escolha uma oferta da tabela abaixo e receba +50% de Revshare adicional.",t:"Aceitamos várias fontes de tráfego",tx:"Aceitamos afiliados de várias fontes de tráfego (Telegram, Facebook, Instagram, TikTok, YouTube, SEO, influencers, publishers, mídia paga) e de várias localizações.",o:"Tabela de ofertas",ox:"FTD necessário = valor ÷ 2. Depósitos esperados = valor × 6. Todas as ofertas incluem +50% Revshare.",th:["Oferta","FTD necessário","Depósitos esperados","Bónus"],k:"Contacto",km:"Olá! Quero ser afiliado da WinWinBET. Fonte de tráfego: ___ . País: ___ .",d:"Apenas maiores de 18 anos."},
+es:{n:"Español",h:'Sé nuestro socio y <span>gana más</span>',s:"Únete a WinWinBET y obtén las mejores condiciones para tu tráfico. Gerente dedicado, pagos rápidos y material promocional exclusivo.",a:"Aplicar ahora",b:"Contáctanos",m:"Modelos de acuerdo",r1:"Revenue Share",r2:"Del 25% al 50% de revshare, según tu tráfico y GEO.",c1:"CPA",c2:"Pago fijo por primer depósito, disponible en algunas regiones.",y1:"Híbrido",y2:"Elige una oferta de la escala y recibe +50% de Revshare adicional.",t:"Aceptamos varias fuentes de tráfico",tx:"Aceptamos afiliados de muchas fuentes de tráfico (Telegram, Facebook, Instagram, TikTok, YouTube, SEO, influencers, publishers, medios pagados) y de cualquier ubicación.",o:"Escala de ofertas",ox:"FTD requerido = monto ÷ 2. Depósitos esperados = monto × 6. Todas las ofertas incluyen +50% Revshare.",th:["Oferta","FTD requerido","Depósitos esperados","Bono"],k:"Contacto",km:"¡Hola! Quiero ser afiliado de WinWinBET. Fuente de tráfico: ___ . País: ___ .",d:"Solo mayores de 18 años."},
+fr:{n:"Français",h:'Devenez partenaire et <span>gagnez plus</span>',s:"Rejoignez WinWinBET et profitez des meilleures conditions pour votre trafic. Manager dédié, paiements rapides, matériel promo exclusif.",a:"Postuler",b:"Nous contacter",m:"Modèles de deal",r1:"Revenue Share",r2:"De 25 % à 50 % de revshare selon votre trafic et votre GEO.",c1:"CPA",c2:"Paiement fixe par premier dépôt, disponible pour certaines régions.",y1:"Hybride",y2:"Choisissez une offre dans l'échelle et recevez +50 % de Revshare en plus.",t:"Plusieurs sources de trafic acceptées",tx:"Nous acceptons des affiliés de nombreuses sources de trafic (Telegram, Facebook, Instagram, TikTok, YouTube, SEO, influenceurs, publishers, médias payants) et de partout dans le monde.",o:"Échelle d'offres",ox:"FTD requis = montant ÷ 2. Dépôts attendus = montant × 6. Chaque offre inclut +50 % de Revshare.",th:["Offre","FTD requis","Dépôts attendus","Bonus"],k:"Contact",km:"Bonjour ! Je veux devenir affilié WinWinBET. Source de trafic : ___ . Pays : ___ .",d:"Réservé aux 18 ans et plus."},
+ru:{n:"Русский",h:'Станьте партнёром и <span>зарабатывайте больше</span>',s:"Присоединяйтесь к WinWinBET и получите лучшие условия для вашего трафика. Персональный менеджер, быстрые выплаты, эксклюзивные промо-материалы.",a:"Подать заявку",b:"Связаться",m:"Модели сотрудничества",r1:"Revenue Share",r2:"От 25% до 50% ревшары в зависимости от трафика и GEO.",c1:"CPA",c2:"Фиксированная выплата за первый депозит для отдельных регионов.",y1:"Гибрид",y2:"Выберите оффер из таблицы и получите дополнительные +50% Revshare.",t:"Принимаем разные источники трафика",tx:"Мы принимаем партнёров с разных источников трафика (Telegram, Facebook, Instagram, TikTok, YouTube, SEO, инфлюенсеры, паблишеры, платный трафик) из любых стран.",o:"Шкала офферов",ox:"Нужно FTD = сумма ÷ 2. Ожидаемые депозиты = сумма × 6. Каждый оффер включает +50% Revshare.",th:["Оффер","Нужно FTD","Ожидаемые депозиты","Бонус"],k:"Контакты",km:"Здравствуйте! Хочу стать партнёром WinWinBET. Источник трафика: ___ . Страна: ___ .",d:"Только 18+."},
+tr:{n:"Türkçe",h:'Ortağımız olun ve <span>daha çok kazanın</span>',s:"WinWinBET'e katılın, trafiğiniz için en iyi şartları alın. Özel yönetici, hızlı ödemeler, özel promo materyalleri.",a:"Başvur",b:"İletişim",m:"Anlaşma modelleri",r1:"Gelir Paylaşımı",r2:"Trafiğinize ve GEO'ya göre %25 ile %50 arası revshare.",c1:"CPA",c2:"Bazı bölgeler için ilk depozito başına sabit ödeme.",y1:"Hibrit",y2:"Tablodan bir teklif seçin, ek +%50 Revshare kazanın.",t:"Birçok trafik kaynağı kabul edilir",tx:"Birçok trafik kaynağından (Telegram, Facebook, Instagram, TikTok, YouTube, SEO, influencer, publisher, ücretli reklam) ve dünyanın her yerinden affiliate kabul ediyoruz.",o:"Ortak teklif tablosu",ox:"Gereken FTD = tutar ÷ 2. Beklenen depozito = tutar × 6. Her teklif +%50 Revshare içerir.",th:["Teklif","Gereken FTD","Beklenen depozito","Bonus"],k:"İletişim",km:"Merhaba! WinWinBET affiliate olmak istiyorum. Trafik kaynağım: ___ . Ülkem: ___ .",d:"Yalnızca 18+."},
+ar:{n:"العربية",h:'كن شريكنا و<span>اربح أكثر</span>',s:"انضم إلى WinWinBET واحصل على أفضل الشروط لزيارتك. مدير مخصص، مدفوعات سريعة، ومواد ترويجية حصرية.",a:"قدّم الآن",b:"تواصل معنا",m:"نماذج الاتفاق",r1:"مشاركة الإيرادات",r2:"من 25% إلى 50% حسب مصدر الزيارات والدولة.",c1:"CPA",c2:"دفعة ثابتة لكل أول إيداع في مناطق محددة.",y1:"هجين",y2:"اختر عرضًا من الجدول واحصل على +50% Revshare إضافية.",t:"نقبل عدة مصادر للزيارات",tx:"نقبل المسوقين من مصادر متعددة (تيليجرام، فيسبوك، إنستغرام، تيك توك، يوتيوب، SEO، المؤثرين، الناشرين، الإعلانات المدفوعة) ومن مواقع مختلفة حول العالم.",o:"جدول عروض الشركاء",ox:"FTD المطلوب = المبلغ ÷ 2. الإيداعات المتوقعة = المبلغ × 6. كل عرض يتضمن +50% Revshare.",th:["العرض","FTD المطلوب","الإيداعات المتوقعة","المكافأة"],k:"تواصل",km:"مرحبًا! أريد أن أصبح شريكًا في WinWinBET. مصدر الزيارات: ___ . الدولة: ___ .",d:"للبالغين 18+ فقط."}
+};
+var TZ={"Africa/Maputo":"pt","Africa/Luanda":"pt","America/Sao_Paulo":"pt","Europe/Lisbon":"pt","Africa/Cairo":"ar","Africa/Algiers":"fr","Africa/Casablanca":"fr","Africa/Abidjan":"fr","Africa/Dakar":"fr","Africa/Douala":"fr","Europe/Paris":"fr","Europe/Istanbul":"tr","Europe/Moscow":"ru","Asia/Tashkent":"ru","Asia/Riyadh":"ar","Asia/Amman":"ar","Europe/Madrid":"es","America/Mexico_City":"es","America/Bogota":"es","America/Argentina/Buenos_Aires":"es"};
+function detect(){
+  try{var l=(navigator.languages||[navigator.language||"en"]);
+    for(var i=0;i<l.length;i++){var c=String(l[i]).slice(0,2).toLowerCase();if(L[c])return c;}
+    var tz=Intl.DateTimeFormat().resolvedOptions().timeZone;if(TZ[tz])return TZ[tz];
+  }catch(e){}
+  return "en";
+}
+function $(i){return document.getElementById(i)}
+var CP={en:"Message copied — paste it in the Telegram chat.",pt:"Mensagem copiada — cole-a no chat do Telegram.",es:"Mensaje copiado: pégalo en el chat de Telegram.",fr:"Message copié : collez-le dans le chat Telegram.",ru:"Сообщение скопировано — вставьте его в чат Telegram.",tr:"Mesaj kopyalandı — Telegram sohbetine yapıştırın.",ar:"تم نسخ الرسالة — الصقها في محادثة تيليجرام."};
+function fb(t){try{var x=document.createElement("textarea");x.value=t;document.body.appendChild(x);x.select();document.execCommand("copy");document.body.removeChild(x)}catch(e){}}
+function cpy(){var t=window.CM||"";try{var p=navigator.clipboard&&navigator.clipboard.writeText(t);if(p&&p.catch)p.catch(function(){fb(t)});if(!p)fb(t)}catch(e){fb(t)}var n=$("cpn");n.textContent=window.CN||"";n.style.display="block";setTimeout(function(){n.style.display="none"},6000)}
+function render(c){
+  var t=L[c];if(!t){c="en";t=L.en;}
+  var f=L.en;
+  function g(k){return (t[k]!==undefined&&t[k]!=="")?t[k]:f[k];}
+  document.documentElement.lang=c;document.documentElement.dir=c==="ar"?"rtl":"ltr";
+  $("h").innerHTML=g("h");
+  ["s","m","r1","r2","c1","c2","y1","y2","t","tx","o","ox","k","d"].forEach(function(k){var id=k==="k"?"k":k;$(id).textContent=g(k)});
+  $("km").textContent=g("km");
+  $("a1").textContent=g("a");$("a2").textContent=g("b");
+  var msg=encodeURIComponent(g("km"));
+  var tg="https://t.me/Gelito_Winwin",wa="https://wa.me/258863197240?text="+msg;
+  var tt=tg+"?text="+msg;$("a1").href=tt;$("tg").href=tt;$("a2").href=wa;$("wa").href=wa;window.CM=g("km");window.CN=CP[c]||CP.en;
+  $("th").innerHTML=g("th").map(function(x){return "<th>"+x+"</th>"}).join("")+"";
+  var h="";for(var i=1;i<=50;i++){var o=i*100;h+="<tr><td>$"+o.toLocaleString("en-US")+"</td><td>"+(o/2).toLocaleString("en-US")+"</td><td>$"+(o*6).toLocaleString("en-US")+"</td><td>+50% Revshare</td></tr>";}
+  $("tb").innerHTML=h;
+  $("lang").value=c;
+}
+(function(){
+  var s=$("lang");
+  Object.keys(L).forEach(function(k){var o=document.createElement("option");o.value=k;o.textContent=L[k].n;s.appendChild(o)});
+  s.onchange=function(){render(s.value)};$("a1").onclick=cpy;$("tg").onclick=cpy;
+  var c="en";try{c=detect()}catch(e){}
+  try{render(c)}catch(e){render("en")}
+})();
+</script>
+</body>
+</html>
